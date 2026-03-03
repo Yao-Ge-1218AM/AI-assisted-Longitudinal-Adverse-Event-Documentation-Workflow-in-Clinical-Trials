@@ -57,6 +57,9 @@ This framework explicitly aligns extraction and normalization to CTCAE v5.0.
 
 Example:
 
+```markdown
+Example:
+
 ```json
 [
   {
@@ -69,6 +72,7 @@ Example:
     "serious": "No"
   }
 ]
+```
 
 #### 3. CTCAE Semantic Normalization
 
