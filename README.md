@@ -38,6 +38,11 @@ CTCAE defines:
 This framework explicitly aligns extraction and normalization to CTCAE v5.0.
 
 ---
+## Pipeline Overview
+
+<p align="center">
+  <img src="figures/Agent-Overview.png" width="800"/>
+</p>
 
 ## Framework Architecture
 
