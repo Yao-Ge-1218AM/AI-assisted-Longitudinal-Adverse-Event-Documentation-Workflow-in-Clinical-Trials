@@ -41,9 +41,6 @@ This framework explicitly aligns extraction and normalization to CTCAE v5.0.
 
 ## Framework Architecture
 
-### End-to-End Pipeline
-
-
 ### Core Modules
 
 #### 1. Multi-source Ingestion
