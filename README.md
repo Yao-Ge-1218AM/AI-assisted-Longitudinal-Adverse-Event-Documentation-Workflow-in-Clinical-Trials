@@ -42,3 +42,46 @@ This framework explicitly aligns extraction and normalization to CTCAE v5.0.
 ## Framework Architecture
 
 ### End-to-End Pipeline
+
+
+### Core Modules
+
+#### 1. Multi-source Ingestion
+
+- Physician progress notes  
+- Research nurse notes (AE listings removed)  
+- Structured laboratory panels  
+
+#### 2. LLM-based AE Extraction
+
+- Context-aware symptom extraction  
+- Temporal anchoring  
+- Structured JSON output  
+
+Example:
+
+```json
+[
+  {
+    "AE_term": "diarrhea",
+    "grade": 2,
+    "attribution": "Possible",
+    "start_date": "2024-01-12",
+    "end_date": "ongoing",
+    "immune_related": "No",
+    "serious": "No"
+  }
+]
+
+#### 3. CTCAE Semantic Normalization
+
+- Embedding-based Top-3 retrieval
+- Fine-tuned MedCPT model
+- Ontology-aligned mapping
+
+#### 4. Longitudinal AE Timeline Modeling
+
+- Onset tracking
+- Resolution handling
+- Grade evolution across visits
+- Recurrence detection
