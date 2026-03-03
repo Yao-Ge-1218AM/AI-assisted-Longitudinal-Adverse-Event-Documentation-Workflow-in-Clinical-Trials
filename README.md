@@ -8,12 +8,6 @@ AI-assisted framework for standardized, longitudinal CTCAE-based adverse event (
 
 Adverse event (AE) documentation is central to safety monitoring in oncology clinical trials. However, AE identification, CTCAE mapping, grading, and attribution remain largely manual, labor-intensive, and inconsistent across visits.
 
-This repository accompanies the manuscript:
-
-**AI-assisted Longitudinal Adverse Event Tracking in Clinical Trials**  
-Yao Ge, Floudas Charalampos S. Floudas, Zhiyong Lu  
-National Institutes of Health (NIH)
-
 We present an end-to-end **LLM-assisted framework** that:
 
 - Extracts AEs from clinical notes and laboratory records  
